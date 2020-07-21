@@ -1,4 +1,5 @@
 #Install Java
+cd ~/java
 tar -xvzf ~/java/openjdk-14.0.2_linux-x64_bin.tar.gz
 
 #Install Maven
