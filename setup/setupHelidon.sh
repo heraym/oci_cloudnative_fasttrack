@@ -8,6 +8,6 @@ wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.
 tar xf /tmp/apache-maven-3.6.3-bin.tar.gz -C ~/maven
 
 #Env Variables
-sudo cp helidon.sh /etc/profile.d/
+sudo cp ~/oci_cloudnative_fasttrack/setup/helidon.sh /etc/profile.d/
 sudo chmod +x /etc/profile.d/helidon.sh
 source /etc/profile.d/helidon.sh
