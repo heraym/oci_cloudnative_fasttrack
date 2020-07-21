@@ -1,5 +1,5 @@
 #Install Java
-tar -xvzf ~/java/jdk-11.0.7_linux-x64_bin.tar.gz
+tar -xvzf ~/java/openjdk-14.0.2_linux-x64_bin.tar.gz
 
 #Install Maven
 mkdir ~/maven
