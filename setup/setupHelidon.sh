@@ -1,4 +1,6 @@
 #Install Java
+mdkdir ~/java
+cp openjdk-14.0.2_linux-x64_bin.tar.gz ~/java
 cd ~/java
 tar -xvzf ~/java/openjdk-14.0.2_linux-x64_bin.tar.gz
 
