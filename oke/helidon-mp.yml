@@ -14,11 +14,14 @@
 # limitations under the License.
 #
 kind: Deployment
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 metadata:
   name: helidon-quickstart-mp
 spec:
   replicas: 1
+  selector: 
+    matchLabels:
+      app: helidon-quickstart-mp      
   template:
     metadata:
       labels:
@@ -27,7 +30,7 @@ spec:
     spec:
       containers:
       - name: helidon-quickstart-mp
-        image: iad.ocir.io/idtat4ogmdyu/helidon-quickstart-mp:latest
+        image: iad.ocir.io/id9qdx5sdq9j/helidon/helidon-quickstart-mp:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
